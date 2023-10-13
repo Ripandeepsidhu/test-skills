@@ -41,7 +41,43 @@
     </use>
    </svg>
    -->
-   
-   
+   <header>
+    <div class="heading-container">
+    <div class="heading">
+        <p class="p1">Bhromaon</p>
+        <p class="p2">Safe Travel Anywhere</p>
+    </div>
+    </div>
+    <div class="input-container">
+        <form>
+        <input class="input-text" type="text" placeholder="Search Your Travel Destination">
+        <button>SEARCH <i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+    </div>
+    <nav>
+        <div class="logo-part">
+            <a class="logo">Bhromaon</a>
+        </div>
+        <div class="nav-bar" id="navigation">
+            <a href="#">Who We Are</a>
+            <a href="#">What We Do</a>
+            <a href="#">Travel With Us</a>
+            <a href="#">Travel With Us</a>
+            <a class="icon" onclick="burgerMenu()">
+                <i class="fa fa-bars"></i>
+                </a>
+        </div>
+    </nav>
+   </header>
+   <script>
+    function burgerMenu() {
+        let burger = document.getElementById("navigation");
+        if (burger.className === "nav-bar") {
+        burger.className += " responsive";
+        } else {
+        burger.className = "nav-bar";
+        }
+    }
+    </script>
 </body>
 </html>
