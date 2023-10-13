@@ -1,7 +1,190 @@
 @import 'header';
 @import 'section1';
+@import 'section4';
 body{
     font-family: 'Aleo', serif;
     font-family: 'Josefin Sans', sans-serif;
     margin: auto;
 }
+.section2{
+    background: url(/images/e56a35d5f9911d06d9e4644e4aad4f3f.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1770px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-container{
+    align-items:center;
+}
+.card{
+    max-width: 543px;
+    width: 100%;
+    height: 374px;
+    background-color: #232323;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 14px;
+
+}
+.section2 .p1 .section3 .p1{
+    max-width: 80px;
+    width: 100%;
+    color: #E8E8E8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+    letter-spacing: 1.5px;
+}
+.section2 .p2,.section3 .p2{
+    max-width: 241px;
+    width: 100%;
+    color: #FFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+    text-transform: uppercase;
+}
+.section2 .p3, .section3 .p3{
+    max-width: 508px;
+    width: 100%;
+    color: #E8E8E8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.section2 button, .section2 button{
+    width: 228px;
+    height: 63px;
+    background-color: #5474FD;
+    color: #FFF;
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.section2 button:hover{
+    background-color: #8096f9;
+}
+.section3 button:hover{
+    background-color: #8096f9;
+}
+.section3{
+    background: url(/images/d1f51c3417efd6c075072dc710e33870.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1770px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+/*section 2 and section 3 ends*/
+@media screen and (max-width:1100px){
+    .card{
+        max-width: 440px;
+        width: 100%;
+        
+    }
+    .section2 .p1 .section3 .p1{
+        max-width: 70px;
+        width: 100%;
+        font-size: 18px;
+    }
+    .section2 .p2,.section3 .p2{
+    max-width: 200px;
+    width: 100%;
+    font-size: 18px;
+    }
+    .section2 .p3, .section3 .p3{
+    max-width: 408px;
+    width: 100%;
+    font-size: 16px;
+    }
+    .section2 button, .section2 button{
+        width: 200px;
+        height: 56px;
+}
+.section2{
+    background:url(/images/e56a35d5f9911d06d9e4644e4aad4f3f.png);
+    max-width:1100px ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section3{
+    background: url(/images/d1f51c3417efd6c075072dc710e33870.png);
+    max-width:1100px ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
+ @media screen and (max-width:800px){
+    .card{
+        max-width: 300px;
+        width: 100%;
+       
+    }
+    .section2 .p1 .section3 .p1{
+        max-width: 50px;
+        width: 100%;
+        font-size: 14px;
+        
+    }
+    .section2 .p2,.section3 .p2{
+        line-height: 20px;
+    font-size: 14px;
+    
+    }
+    .section2 .p3, .section3 .p3{
+    max-width: 308px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 18px;
+    }
+    .section2 button, .section3 button{
+        width: 170px;
+        height: 44px;
+}
+.section2{
+    background:url(/images/e56a35d5f9911d06d9e4644e4aad4f3f.png);
+    max-width:800px ;
+    min-width: 320px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section3{
+    background: url(/images/d1f51c3417efd6c075072dc710e33870.png);
+    max-width:800px ;
+    width: 100%;
+    min-width:320px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ }
