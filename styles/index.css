@@ -13,7 +13,7 @@ header {
   max-width: 1770px;
   width: 100%;
   height: 820px;
-  background: url(/images/0e61fe57ecb871de4bbada51a07101fa.png);
+  background: url(../images/0e61fe57ecb871de4bbada51a07101fa.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -308,7 +308,7 @@ a:hover {
     height: 98px;
   }
   header {
-    background: url(/images/0e61fe57ecb871de4bbada51a07101fa.png);
+    background: url(../images/0e61fe57ecb871de4bbada51a07101fa.png);
     max-width: 1100px;
     width: 100%;
     background-repeat: no-repeat;
@@ -344,7 +344,7 @@ a:hover {
 }
 @media screen and (max-width: 650px) {
   header {
-    background: url(/images/0e61fe57ecb871de4bbada51a07101fa.png);
+    background: url(../images/0e61fe57ecb871de4bbada51a07101fa.png);
     max-width: 800px;
     width: 100%;
     min-width: 320px;
@@ -358,7 +358,7 @@ a:hover {
 }
 
 .section1 .first-part {
-  background: url(/images/e7fd46acb99e5aaf91c8d7e0c64088a1.png);
+  background: url(../images/e7fd46acb99e5aaf91c8d7e0c64088a1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -510,7 +510,7 @@ button:hover {
     height: 56px;
   }
   .section1 .first-part {
-    background: url(/images/e7fd46acb99e5aaf91c8d7e0c64088a1.png);
+    background: url(../images/e7fd46acb99e5aaf91c8d7e0c64088a1.png);
     max-width: 1100px;
     width: 100%;
     background-repeat: no-repeat;
@@ -549,7 +549,7 @@ button:hover {
     height: 44px;
   }
   .section1 .first-part {
-    background: url(/images/e7fd46acb99e5aaf91c8d7e0c64088a1.png);
+    background: url(../images/e7fd46acb99e5aaf91c8d7e0c64088a1.png);
     max-width: 800px;
     min-width: 320px;
     width: 100%;
@@ -559,7 +559,7 @@ button:hover {
   }
 }
 .section4 {
-  background: url(/images/26c6b0ac282100c4a7bad32451ea2470.png);
+  background: url(../images/26c6b0ac282100c4a7bad32451ea2470.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -693,7 +693,7 @@ button:hover {
     font-size: 16px;
   }
   .section4 {
-    background: url(/images/26c6b0ac282100c4a7bad32451ea2470.png);
+    background: url(../images/26c6b0ac282100c4a7bad32451ea2470.png);
     max-width: 1100px;
     width: 100%;
     background-repeat: no-repeat;
@@ -720,7 +720,7 @@ button:hover {
     line-height: 18px;
   }
   .section4 {
-    background: url(/images/26c6b0ac282100c4a7bad32451ea2470.png);
+    background: url(../images/26c6b0ac282100c4a7bad32451ea2470.png);
     max-width: 800px;
     min-width: 320px;
     width: 100%;
@@ -879,7 +879,7 @@ body {
 }
 
 .section2 {
-  background: url(/images/e56a35d5f9911d06d9e4644e4aad4f3f.png);
+  background: url(../images/e56a35d5f9911d06d9e4644e4aad4f3f.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -987,7 +987,7 @@ body {
 }
 
 .section3 {
-  background: url(/images/d1f51c3417efd6c075072dc710e33870.png);
+  background: url(../images/d1f51c3417efd6c075072dc710e33870.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1035,7 +1035,7 @@ body {
     height: 56px;
   }
   .section2 {
-    background: url(/images/e56a35d5f9911d06d9e4644e4aad4f3f.png);
+    background: url(../images/e56a35d5f9911d06d9e4644e4aad4f3f.png);
     max-width: 1100px;
     width: 100%;
     background-repeat: no-repeat;
@@ -1043,7 +1043,7 @@ body {
     background-position: center;
   }
   .section3 {
-    background: url(/images/d1f51c3417efd6c075072dc710e33870.png);
+    background: url(../images/d1f51c3417efd6c075072dc710e33870.png);
     max-width: 1100px;
     width: 100%;
     background-repeat: no-repeat;
@@ -1076,7 +1076,7 @@ body {
     height: 44px;
   }
   .section2 {
-    background: url(/images/e56a35d5f9911d06d9e4644e4aad4f3f.png);
+    background: url(../images/e56a35d5f9911d06d9e4644e4aad4f3f.png);
     max-width: 800px;
     min-width: 320px;
     width: 100%;
@@ -1085,7 +1085,7 @@ body {
     background-position: center;
   }
   .section3 {
-    background: url(/images/d1f51c3417efd6c075072dc710e33870.png);
+    background: url(../images/d1f51c3417efd6c075072dc710e33870.png);
     max-width: 800px;
     width: 100%;
     min-width: 320px;
